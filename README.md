@@ -32,11 +32,11 @@ kubectl create namespace production
 ### 3. Configure RBAC
 #### Admin User (Full Permissions)
 ```sh
-kubectl apply -f admin-rbac.yaml
+kubectl apply -f rbac-admin.yaml
 ```
 #### Dev User (No Permissions Initially)
 ```sh
-kubectl apply -f dev-rbac.yaml
+kubectl apply -f rbac-dev.yaml
 ```
 
 ### 4. Enable Ingress Controller
